@@ -28,6 +28,12 @@ div.header-down-left, div.header-down-right {
 
 div.header-down-left span{
   margin: 0 20px;
+
+}
+
+div.header-down-left span:hover{
+  color: rgb(51, 103, 214);
+  border-bottom: 1px solid rgb(51, 103, 214);
 }
 
 div.header-down-right span{
