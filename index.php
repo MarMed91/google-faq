@@ -26,22 +26,24 @@
            </div>
        </div>
      </header>
-     <?php
-     include  "vars4.php";
+     <main>
+       <?php
+       include  "vars4.php";
 
-     function googleFaq($arr) {
+       function googleFaq($arr) {
 
-       foreach ($arr as $value) {
-         $question = $value["Domande"];
-         $answer = $value["Risposte"];
+         foreach ($arr as $value) {
+           $question = $value["Domande"];
+           $answer = $value["Risposte"];
 
-         echo "<h2>$question</h2>";
-         echo "<p>$answer<p>";
+           echo "<h2>$question</h2>";
+           echo "<p>$answer<p>";
+         }
        }
-     }
-     googleFaq($faq);
-      ?>
-   </body>
+       googleFaq($faq);
+        ?>
+     </main>
+  </body>
  </html>
   </body>
 </html>
