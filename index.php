@@ -27,7 +27,7 @@
        </div>
      </header>
      <?php
-     include  "vars";
+     include  "vars.php";
 
      function googleFaq() {
 
