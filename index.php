@@ -27,11 +27,11 @@
        </div>
      </header>
      <?php
-     include  "vars.php";
+     include  "vars4.php";
 
-     function googleFaq() {
+     function googleFaq($arr) {
 
-       foreach ($faq as $value) {
+       foreach ($arr as $value) {
          $question = $value["Domande"];
          $answer = $value["Risposte"];
 
@@ -39,7 +39,7 @@
          echo "<p>$answer<p>";
        }
      }
-     googleFaq();
+     googleFaq($faq);
       ?>
    </body>
  </html>
